@@ -1,0 +1,13 @@
+[package]
+name = "pakr-typed-io"
+version = "1.0.0"
+authors = ["Pawel Kraszewski <pawel@kraszewscy.net>"]
+edition = "2021"
+description = "Strongly typed stream input/output"
+keywords = ["binary", "safe", "encoding", "decoding"]
+categories = ["encoding", "parsing"]
+repository = "https://github.com/p-kraszewski/pakr-typed-io"
+license = "BSD-2-Clause"
+
+[dependencies]
+eyre = { version = "^0.6" }
